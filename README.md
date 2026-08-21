@@ -4,7 +4,7 @@
 
 # AiTraceRoot Smart Contracts
 
-Public smart contracts for the ART ecosystem.
+Public smart contracts for the ART ecosystem, designed for BNB Chain. The default deployment network is BSC, also known as BNB Smart Chain.
 
 ## Contracts
 
@@ -13,6 +13,8 @@ Public smart contracts for the ART ecosystem.
 - `AiTraceRootBuilderBadge`: ecosystem contributor badge distributed by owner or operator airdrop.
 - `AiTraceRootToken`: ART token contract.
 - `AiTraceRootVesting`: ART vesting contract.
+
+`AiTraceRootToken`, the Pioneer, Advocate and Builder badge contracts, and `AiTraceRootVesting` are components of the ART ecosystem.
 
 ## Shared Features
 
@@ -37,4 +39,4 @@ npm run test
 
 ## Boundary
 
-This repository contains public contracts and tests only. It does not contain production environment files, private keys, backend services, admin panels, deployment scripts, source maps, or server configuration files.
+This repository contains public contracts and tests only. It does not contain contract addresses, private keys, RPC credentials, production deployment parameters, production environment files, backend services, admin panels, deployment scripts, source maps, or server configuration files.
